@@ -1,6 +1,6 @@
 import React from "react";
 
-const Poster = () => {
+const Poster = (props) => {
     return (
         <>
             <div className= " flex flex-col items-start gap-2 px-3">
