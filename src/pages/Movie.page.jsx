@@ -1,9 +1,13 @@
-import React from 'react'
+import React from 'react';
 
- const Movie = () => {
+//components
+import MovieHero from '../components/MovieHero/movieHero.component';
+
+
+const Movie = () => {
     return (
         <>
-            <h3>Hi i am movie page </h3>
+            <MovieHero />
         </>
     );
 };

@@ -3,11 +3,11 @@ import React from "react";
 const Poster = (props) => {
     return (
         <>
-            <div className= " flex flex-col items-start gap-2 px-3">
-                <div className="h-30" > 
-                    <img src={props.src} alt={props.title} className="w-full h-ful rounded-xl" />
+            <div className= " flex flex-col items-start gap-2 md:px-3 px-1 ">
+                <div className="h-40 md:h-80" > 
+                    <img src={props.src} alt={props.title} className="w-full h-ful rounded-md" />
                 </div>
-                <h3 className={`text-lg font-bold my-4
+                <h3 className={`text-lg font-bold md:py-4 
                 ${props.isDark ? "text-white" : "text-gray-700"
                     }`} >{props.title}</h3>
 
