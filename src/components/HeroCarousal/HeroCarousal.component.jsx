@@ -35,9 +35,9 @@ const HeroCarousal = () => {
   };
 
   const images = [
-    "https://images.unsplash.com/photo-1434725039720-aaad6dd32dfe?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1042&q=80",
+    "https://static1.colliderimages.com/wordpress/wp-content/uploads/2021/09/every-marvel-movie-to-watch-before-shang-chi.jpg?q=50&fit=contain&w=750&h=375&dpr=1.5",
     "https://images4.alphacoders.com/975/thumb-1920-975294.jpg" ,
-        "https://images.unsplash.com/photo-1494500764479-0c8f2919a3d8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80",
+        "https://wahitimuforum.com/wp-content/uploads/2021/07/301078813.gallery-650x381.jpg",
   ];
 
   return (
