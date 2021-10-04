@@ -8,7 +8,7 @@ const MovieInfo = () => {
                     <div className="w-40 h-8 z-30">
                         <img src="https://in.bmscdn.com/moviemode/tvod/premiere-tag.png"
                             alt="premier"
-                            className="w-full h-full"
+                            className="w-full h-full "
                         />
                     </div>
                     <span className="bg-bms-700  text-white text-xs rounded-md p-1">Streaming Now</span>
@@ -21,7 +21,7 @@ const MovieInfo = () => {
                         <h4>1h 53m  &bull; Action , Sci fi , thriller &bull; 13+</h4>
                     </div>
 
-                    <div className="flex items-center gap-3 md:px-4 md:w-screen lg:w-full">
+                    <div className="flex items-center gap-3 md:px-4 md:w-screen sm:w-screen lg:w-full">
                         <button className="bg-red-600 rounded-lg  w-full py-2 font-semibold text-white  ">
                             Rent ₹149
                         </button>
