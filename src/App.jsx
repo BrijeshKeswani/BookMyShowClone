@@ -1,4 +1,5 @@
 import {Route} from "react-router-dom";
+import axios from "axios";
 
 //import HOC
 import DefaultHOC from "./HOC/Default.HOC";
@@ -17,6 +18,10 @@ import Plays from "./pages/Plays.page";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+//axios default settings
+axios.defaults.baseURL = "https://api.themoviedb.org/3"; //i got this url from tmdb documentation web page in authentication section
+axios.defaults.params={};
+axios.defaults.params["api_key"] = process.env.REACT_APP_API_KEY;
 
 function App() {
   return <>

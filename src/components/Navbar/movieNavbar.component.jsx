@@ -1,15 +1,19 @@
-import React from "react";
+import React , {useContext} from "react";
 import { BiChevronRight, BiSearch, BiMenu , BiChevronDown , BiShareAlt } from "react-icons/bi"; //here we have to write
 // first 2 letters of our icon in react-icons/bi here bi is first 
 //two letters of bichevronright
 
+//context 
+import { MovieContext } from "../../context/movie.context";
+
 
 const NavSm = () => {
+    const { movie } = useContext(MovieContext);
     return (
         <>
             <div className="text-white flex items-center justify-between">
                 <div>
-                    <h3 className=" text-xl font-bold">It all starts here!!</h3>
+                    <h3 className=" text-xl font-bold">{movie.original_title}</h3>
                 </div>
                 <div className="w-8 h-8">
                     <BiShareAlt className="w-full h-full" />
